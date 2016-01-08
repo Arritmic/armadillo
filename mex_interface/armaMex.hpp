@@ -435,6 +435,7 @@ armaSetCubePi(mxArray *matlabMatrix, const Cube<double>& armaCube)
   }
 
 // Return double complex cube to Matlab/Octave.
+inline
 void
 armaSetCubeCx(mxArray *matlabMatrix, const cx_cube& armaCube)
   {
